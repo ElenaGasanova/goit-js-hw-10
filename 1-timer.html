@@ -4,17 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 2</title>
+    <title>Page 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    
+    
+    
     <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js">
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-2b44ac2e.js">
-    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-21fdfc57.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/reset-df635d97.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/reset-d3b5fc92.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/1-timer-ad4e6a5b.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-c9db6b34.css">
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
-      <input type="text" id="datetime-picker" />
-      <button type="button" data-start>Start</button>
+      <div class="container">
+        <input type="text" id="datetime-picker" />
+        <button type="button" data-start disabled>Start</button>
+      </div>
 
       <div class="timer">
         <div class="field">
